@@ -75,6 +75,10 @@ body {
     justify-content: center;
 }
 
+.top-link {
+    text-decoration: none;
+}
+
 .home-title {
     font-size: 34px;
     text-align: center;
