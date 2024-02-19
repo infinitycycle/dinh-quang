@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'sf_ui_displayregular';
+    src: url('sfdisplay-regular-webfont.woff2') format('woff2'),
+         url('sfdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fb-logo {
+    height: 25px;
+    padding-left: 20px;
+}
+
+.yt-logo {
+    height: 25px;
+    padding-left: 20px;
+}
+
+* {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(201, 110, 46);
+    font-family: 'sf_ui_displayregular';
+    color: rgb(120, 60, 30);
+}
+
+.info-banner {
+    max-width: 830px;
+    min-width: 830px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-flex {
+    background-image: url('../images/clouds-banner.png');
+    background-position: center;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    flex: 1;
+    padding-left: 1%;
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.address {
+    flex: 1;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.links{
+    max-width: 600px;
+    min-width: 600px;
+    color: palegoldenrod;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.links-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.home-title {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.page-content {
+    width: 530px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(241,202,133);
+}
+
+.page-flex {
+    display: flex;
+    justify-content: center;
+}
