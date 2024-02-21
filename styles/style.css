@@ -108,3 +108,14 @@ body {
     justify-content: center;
     margin-top: 50px;
 }
+
+.chants-link-and-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.chanting-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
